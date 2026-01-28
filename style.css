@@ -1,0 +1,46 @@
+/* タブUI */
+.tab {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-right: 4px;
+}
+.tab.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* コンテンツ表示/非表示 */
+.content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 4px;
+}
+.content.active {
+  display: block;
+}
+
+/* アコーディオン */
+.acc-btn {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  text-align: left;
+  margin-top: 4px;
+}
+.acc-btn.open {
+  background-color: #f0f0f0;
+}
+.acc-content {
+  display: none;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.acc-content.open {
+  display: block;
+}
